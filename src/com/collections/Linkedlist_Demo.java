@@ -2,6 +2,7 @@ package com.collections;
 
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.HashSet;
 import java.util.Iterator;
 import java.util.LinkedList;
 import java.util.List;
@@ -26,6 +27,12 @@ public class Linkedlist_Demo {
         System.out.println(li);
         System.out.println(li.peek());
         System.out.println(li.poll());
+        
+       HashSet<String>hs=new HashSet<String>(li);
+       
+       for(String str:hs) {
+    	   System.out.println(str);
+       }
     /*    Iterator<String> it=li.iterator();
         boolean b= it.hasNext();
         while (it.hasNext()) {

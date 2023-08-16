@@ -42,7 +42,7 @@ import java.util.stream.Collectors;
       
        Object[] arr1=  str.toArray();
        for (Object obj : arr1) {
-		System.out.println(obj);
+		System.out.print(obj+",");
 	  }
        str.clear();
 	}

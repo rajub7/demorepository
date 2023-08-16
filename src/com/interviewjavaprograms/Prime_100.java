@@ -32,19 +32,7 @@ public class Prime_100 {
 		}
 		
 		
-	int tem=0;
-		for (int i = 1; i <=100; i++) {
-			int count1=0;
-			for (int j = 1; j <=i; j++) {
-				if(i%j==0){
-					count1++;
-				}	
-			
-			}
-			if(count1==2){
-				System.out.println(i);
-			}	
-		} */
+	*/
 		
 		
 	

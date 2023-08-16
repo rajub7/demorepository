@@ -9,7 +9,7 @@ class Count_accurence_string {
     System.out.println(s);
     String arr[]=str.split(" ");
     for (String string : arr) {
-		System.out.print(string);
+		System.out.println(string);
 	}
     int count=str.length();
     int count1=str.replace(" ","").length();
