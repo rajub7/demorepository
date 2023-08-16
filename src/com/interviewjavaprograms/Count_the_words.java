@@ -11,6 +11,7 @@ public class Count_the_words {
    String str=sc.nextLine();*/
    String str ="welcome to java course";  
    int size=str.length();
+   System.out.println(size);
    int count = 1;
    for (int i = 0; i <size-1; i++) {
 	  if((str.charAt(i)==' ')&&(str.charAt(i+1)!=' ')){
