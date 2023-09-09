@@ -17,11 +17,11 @@ public class CollectionToArray {
 	       str.add("ambika");
 	       str.add("trinayana");
 	       
-	     String[] arr=str.toArray(new String[str.size()]);
+	     Object[] arr=str.toArray();
 	     
-	     for (String string : arr) {
-			System.out.println(string);
-			System.out.println(".............");
+	     for (Object string : arr) {
+			System.out.print(string);
+		
 		}
 	    	
 	     Set<String> str1=new HashSet<String>();
@@ -30,10 +30,10 @@ public class CollectionToArray {
 	       str1.add("priya");
 	       str1.add("tony");
 	       
-	     String[] arr1=str1.toArray(new String[str1.size()]);
-	     for (String stn : arr1) {
+	     Object[] arr1=str1.toArray();
+	     for (Object stn : arr1) {
 				System.out.println(stn);
-				System.out.println("............");
+				
 			}
 	     
 	     Map<Integer,String> mp=new HashMap<Integer,String>();
@@ -42,8 +42,8 @@ public class CollectionToArray {
      mp.put(2,"charan");
     mp.put(3,"ambika");
      mp.put(4,"trinayana");
-     String[] ar=mp.values().toArray(new String[mp.size()]);
-           for(String s:ar){
+     Object[] ar=mp.values().toArray();
+           for(Object s:ar){
        System.out.println(s);
       }
 	       
