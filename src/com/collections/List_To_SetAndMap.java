@@ -18,7 +18,7 @@ public class List_To_SetAndMap {
 		// TODO Auto-generated method stub
 		List<String>li=new ArrayList<String>();
 		li.add("raju");
-		li.add("ran");
+		li.add("rani");
 		li.add("raj");
 		li.add("rani");
 		
